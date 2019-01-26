@@ -1,0 +1,92 @@
+.mg-font-18 {
+	font-size: 18px;
+}
+.inline-block {
+	display: inline-block;
+}
+#paginations {
+	line-height: 25px;
+	width: 100%;
+}
+#paginations .pagination-page .item {
+	width: 36px!important;
+	height: 25px!important;
+	line-height: 25px!important;
+	background: #F7F7F7;
+	border: 1px solid #DEDEDE;
+	border-radius: 4px;
+	text-align: center;
+	display: inline-block;
+}
+#paginations .pagination-page button {
+	cursor: pointer;
+}
+#paginations .pagination-page [disabled] {
+	color: #8C8C8C;
+}
+#paginations .pagination-page .btn-active:active {
+	background: #C8C8C8!important;
+}
+#paginations .pagination-page .btn-hover:hover {
+	background: #D8D8D8;
+	border: 1px solid #B1B1B1;
+}
+#paginations .pagination-page .current-pageNumber {
+	position: relative;
+	top: -2px;
+}
+#paginations .fa-step-backward,
+#paginations .fa-step-forward {
+	position: relative;
+	top: -2px;
+}
+
+#paginations .pagination-page input.pageNumber {
+	color: #555555;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	height: 25px!important;
+	padding: 1px 10px!important;
+	font-size: 12px!important;
+	line-height: 24px!important;
+	display: inline;
+	width: 40px!important;
+	vertical-align: top;
+}
+#paginations .pagination-page select {
+	color: #555555;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	height: 24px!important;
+	font-size: 12px!important;
+	line-height: 24px!important;
+	display: inline;
+	width: 68px!important;
+	vertical-align: top;
+}
+#paginations .pagination-total {
+	float: right;
+}
+.mg-l-5 {
+	margin-left: 5px;
+}
+
+#paginations input::-webkit-outer-spin-button,
+#paginations input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+#paginations input[type="number"]{
+	-moz-appearance: textfield;
+}
